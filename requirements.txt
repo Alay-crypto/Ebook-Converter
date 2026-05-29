@@ -1,0 +1,14 @@
+# 电子书格式转换平台 —— Python 依赖清单
+# 安装命令：pip install -r requirements.txt
+
+# Web 框架
+fastapi>=0.110.0
+
+# ASGI 服务器（含 websockets、httptools 等高性能扩展）
+uvicorn[standard]>=0.29.0
+
+# 异步文件 I/O（非阻塞磁盘读写）
+aiofiles>=23.2.1
+
+# 支持 Form 表单 + 文件上传（FastAPI 的 multipart 依赖）
+python-multipart>=0.0.9
